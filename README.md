@@ -35,6 +35,9 @@ ng serve
 - HTML
 - CSS
 
+## Görünüm
+![pic todo](https://github.com/salginerdi/ToDoApp-Angular/assets/110611268/45bb279e-a189-4829-918e-622885d1e617)
+
 ------------
 
 # Todo Application
@@ -73,3 +76,6 @@ ng serve
 - TypeScript
 - HTML
 - CSS
+
+## To View
+![pic todo](https://github.com/salginerdi/ToDoApp-Angular/assets/110611268/45bb279e-a189-4829-918e-622885d1e617)
