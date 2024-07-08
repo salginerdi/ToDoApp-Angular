@@ -1,27 +1,75 @@
-# TodoApp
+# Todo Uygulaması
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
+Bu proje, Angular framework'ü kullanılarak geliştirilmiş basit bir Todo uygulamasıdır.
 
-## Development server
+## Özellikler
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Yeni görev ekleme
+- Mevcut görevleri listeleme
+- Görev güncelleme
+- Görev silme
 
-## Code scaffolding
+## Kurulum
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Bu repoyu klonlayın:
+git clone https://github.com/salginerdi/todo-app.git
+2. Proje dizinine gidin:
+cd todo-app
+3. Gerekli bağımlılıkları yükleyin:
+npm install
+4. Uygulamayı çalıştırın:
+ng serve
 
-## Build
+5. Tarayıcınızda `http://localhost:4200` adresine giderek uygulamayı görüntüleyin.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Kullanım
 
-## Running unit tests
+- Yeni bir görev eklemek için, "Work" input alanına görev açıklamasını yazın ve "Save" butonuna tıklayın.
+- Mevcut bir görevi güncellemek için, görevin yanındaki "Update" butonuna tıklayın, değişiklikleri yapın ve "Update" butonuna tekrar tıklayın.
+- Bir görevi silmek için, görevin yanındaki "Delete" butonuna tıklayın.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Teknolojiler
 
-## Running end-to-end tests
+- Angular
+- TypeScript
+- HTML
+- CSS
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+------------
 
-## Further help
+# Todo Application
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+This project is a simple Todo application developed using the Angular framework.
+
+## Features
+
+- Add new tasks
+- List existing tasks
+- Update tasks
+- Delete tasks
+
+## Installation
+
+1. Clone this repository:
+git clone https://github.com/salginerdi/todo-app.git
+2. Navigate to the project directory:
+cd todo-app
+3. Install the necessary dependencies:
+npm install
+4. Run the application:
+ng serve
+
+5. View the application in your browser by going to `http://localhost:4200`.
+
+## Usage
+
+- To add a new task, type the task description in the "Work" input field and click the "Save" button.
+- To update an existing task, click the "Update" button next to the task, make the changes, and click the "Update" button again.
+- To delete a task, click the "Delete" button next to the task.
+
+## Technologies
+
+- Angular
+- TypeScript
+- HTML
+- CSS
